@@ -1,0 +1,70 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 1rem;
+  font-family: system-ui, sans-serif;
+  color: black;
+  background-color: white;
+}
+
+h1 {
+  font-weight: 800;
+  font-size: 1.5rem;
+}
+
+.d-flex {
+  display: flex;
+}
+.flex-wrap {
+  flex-wrap: wrap;
+}
+.basis-full {
+  flex-basis: 100%;
+}
+.d-none {
+  visibility: hidden;
+}
+.d-grid-2 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.d-grid-4 {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+.d-grid-6 {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+}
+.center-both {
+  display: grid;
+  place-items: center;
+}
+.card {
+  padding: 1rem;
+  cursor: pointer;
+  transition: 200ms ease-in-out;
+}
+.flipped {
+  border: 5px solid #292929;
+  background: snow;
+}
+.unflipped {
+  border: 5px solid #292929;
+  background: darkslategrey;
+}
+button{
+  padding: 0.5rem;
+}
+.play-button {
+  background: dodgerblue;
+  color: snow;
+  width: 100%;
+}
+.options {
+  background: skyblue;
+  border: 1px solid dodgerblue;
+}
